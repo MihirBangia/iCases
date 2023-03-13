@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/form.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="js/form.js"></script>
+</head>
+<body>
+    <div class="main-content">
+        <div class="wrapper">
+            <span class="wrapper-con">3 FOR 2 ON ALL PRODUCTS | 14-DAY RETURNS & LIFETIME WARRANTY | FREE UK SHIPPING OVER £50</span>
+        </div>
+            <div class="header">
+            <div class="logo">
+                <img src="images/logo_iCases.svg" alt="icases-logo" height="56px" width="163px">
+            </div>
+            <div class="search">
+                <input class="input-search" type="text" name="search" id="search" placeholder="Search entire store here...">
+    
+                 <button class="search-btn">
+    
+                 </button>
+         </div>
+    
+         <div class="icon">
+            <div class="myacc">
+                <div class="myacc-text">
+                   <a href="#"> Login/Signup</a>
+                </div>
+        </div>
+        <div class="quickorder">
+            <div class="quickorder-text">
+              <a href="#"> Quick Order</a>
+            </div>
+        </div>
+    
+        <div class="myquote">
+            <div class="myquote-text">
+               <a href="#"> MyQuote</a>
+            </div>
+    </div>
+    
+    <div class="minicart">
+        <div class="minicart-text">
+           <a href="#">My Cart</a>
+        </div>
+    </div>
+    
+        </div>
+    
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">ipad cases</a></li>
+                <li><a href="#">iphone cases</a></li>
+                <li><a href="#">mackbook sleeves</a></li>
+                <li><a href="#">screen protectors</a></li>
+                <li><a href="#">outlet</a></li>
+                <li><a href="#">product registration</a></li>
+                <li class="badge"><a href="#">education</a></li>
+            </ul>
+        </div>
+
+        <div class="main-form">
+            <div class="form-wrap">
+                <a href="index.html" class="sup-text">Home</a> > <a href="#" class="main-text">Contact us</a>
+            </div>
+            <div class="cont-txt">
+                Contact Us
+            </div>
+            <div class="form">
+                <form>
+                <div class="name">
+                    <div class="form-label">
+                    <label for="name">Name:<sup class="required">*</sup></label>
+                    </div>
+                    <div class="form-input">
+                    <input type="text" id="name" name="name" placeholder="Enter your Name">
+                    </div>
+                    <span id="nameerr" class="validates"></span>
+                </div>
+                <div class="form-email">
+                    <div class="form-label">
+                        <label for="email">Email:<sup class="required">*</sup></label>
+                        </div>
+                        <div class="form-input">
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                        </div>
+                        <span id="emailerr" class="validates"></span>
+                </div>
+                <div class="form-phone">
+                    <div class="form-label">
+                        <label for="phone">Phone:<sup class="required">*</sup></label>
+                        </div>
+                        <div class="form-input">
+                            <div class="phonenum">
+                            <button class="phone-btn">
+                                <select name="tel" id="tel">
+                                    <option value="1">+91</option>
+                                    <option value="2">+44</option>
+                                </select>
+                            </button>
+                        <input type="tel" id="num" name="phone" class="phone-input" placeholder="Enter your Phone" class="tel" maxlength="10">   
+                        </div>                  
+                    </div> 
+                 <span id="phoneerr" class="validates"></span>            
+                </div>
+                
+                <div class="form-sub">
+                    <div class="form-label">
+                        <label for="subject">Subject:<sup class="required">*</sup></label>
+                        </div>
+                        <div class="form-input">
+                            <select name="subject" class="subject" id="select">
+                                <option value="">--Please Select--</option>
+                                <option value="1">Order Status</option>
+                                <option value="2" id="selected">Return Request</option>
+                                <option value="3">Helpdesk</option>
+                              </select>
+                        </div>
+                        <span id="selecterr" class="validates"></span>
+                </div>
+                <div class="message">
+                    <div class="form-label">
+                    <label for="message">Message:<sup class="required">*</sup></label>
+                    </div>
+                    <div class="form-input">
+                    <textarea name="message" id="textarea" placeholder="Enter your Message" class="textarea"></textarea>
+                    </div>
+                    <span id="messageerr" class="validates"></span>
+                </div>
+                <div class="captcha">
+                    <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+                </div>
+                <div class="sub-btn">
+                    <button class="submit-btn" id="submit-btn" onclick="success(event)">Submit</button>
+                </div>
+                </form>
+                <div class="side">
+                    <p class="side-head">Need Help!</p><hr>
+                    <div class="side-call">
+                        <div class="side-call-logo"></div>
+                        <span>Call Us: +44 (0) 999 8888888 <br>We’re here Mon-Fri 9am - 5pm.</span>
+                    </div>
+                    <div class="side-email">
+                        <div class="side-email-logo"></div>
+                        <span>Email us: support@icases.com <br>We aim to respond within 24hrs, Mon-Fri</span>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        <div class="subscription">
+            <div class="sub-text">
+                <p class="main-sub">Subscribe for Newsletters</p>
+                <p class="supp-sub">Subscribe for early access on offers and new arrivals</p>
+            </div>
+            <div class="sub-search">
+                <input type="text" name="sub-search" id="sub-search" class="input-sub">
+                <button class="btn-sub">
+                    SUBSCRIBE
+                </button>
+            </div>
+        </div>
+
+        <!-- MAIN FOOTER STARTS HERE  -->
+
+        <div class="footer">
+            <div class="f1">
+            <div class="foo-logo">
+                <img src="images/logo_iCase_white.png" alt="logo">
+            </div>
+            <div class="foo-con">
+                <div class="foo-1">
+                    <a href="#"><span class="foo-info">INFO</span></a>
+                   <a href="#"><p>My Account</p></a>  
+                     <a href="#"><p>FAQ</p></a>  
+                    <a href="#"><p>About Us</p></a>  
+                   <a href="#"><p>Delivery</p></a>  
+                   <a href="#"><p>Information</p></a> 
+                </div>
+                <div class="foo-1">
+                    <a href="#"><span class="foo-info">CUSTOMER SERVICES</span></a>
+                   <a href="iform.html"><p>Contact Us</p></a>  
+                     <a href="#"><p>Return Policy</p></a>  
+                    <a href="#"><p>Product Registration</p></a> 
+                </div>
+                <div class="foo-1">
+                    <a href="#"><span class="foo-info">TERMS & CONDITIONS</span></a>
+                   <a href="#"><p>Terms & Conditions</p></a>  
+                     <a href="#"><p>Privacy Policy</p></a>  
+                    <a href="#"><p>Cookie Policy</p></a>  
+                </div>
+                <div class="foo-1">
+                    <div class="cont">
+                    <a href="#"><span class="foo-info">COMPANY INFO</span></a>
+                    <div class="call">
+                        <span> Call Us: +44 (0) 999 8888888  We’re here Mon-Fri 9am - 5pm</span>
+                    </div>
+                    <div class="email">
+                <span> Email us: support@icases.com We aim to respond within 24hrs, Mon-Fri</span>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pm">
+                <div class="follow">
+                    <div class="follow-text">
+                        <span class="pro-text">FOLLOW US ON</span>
+                    </div>
+                    <div class="follow-logo">
+                        <img src="images/ic_facebook.svg" alt="facebook logo">
+                        <img src="images/ic_twitter.svg" alt="twitter logo">
+                        <img src="images/ic_instagram.svg" alt="instagram logo">
+                        <img src="images/ic_pintrest.svg" alt="pinterest logo">
+                        <img src="images/ic_youtube.svg" alt="youtube logo">
+                    </div>
+                </div>
+                <div class="payment">
+                    <div class="payment-text">
+                        <span class="pro-text">PAYMENT METHOD</span>
+                    </div>
+                    <div class="payment-img">
+                        <img src="images/payment_logos.svg" alt="paymment">
+                    </div>
+                    </div>
+            </div>
+            <div class="copyright">
+                <span> © 2021 iCases Limited.</span>
+             </div>
+        </div>
+ </div>
+ </div>
+</body>
+</html>

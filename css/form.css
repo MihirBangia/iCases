@@ -1,0 +1,187 @@
+.form-wrap a{
+    text-decoration: none;
+    color: black;
+}
+.form-wrap{
+    margin-top: 15px;
+}
+.sup-text{
+    font-size: 14px;
+    padding-left: 220px;
+}
+.main-text{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cont-txt{
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 220px;
+    margin-top: 40px;
+}
+.required{
+    color: red;
+}
+
+.form-input input{
+    width:600px;
+    height: 46px;
+    margin-top: 8px;
+    border: 1px solid #CCCCCC;
+}
+.form{
+    padding-left: 220px;
+    margin-top: 38px;
+}
+.form-label{
+    font-size: 17px;
+    font-weight: bold;
+}
+.form-email,.form-phone,.form-sub,.message,.captcha{
+    margin-top: 30px;
+}
+
+.phone-btn select{
+    width: 79px;
+    height: 44px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+}
+
+.tel{
+    padding-left: 80px;
+}
+.subject{
+    width:600px;
+    height: 46px;
+}
+#selected{
+    background-color:#F2F2F2;
+}
+.textarea{
+    width: 600px;
+    height: 134px;
+}
+.phone-input{
+    width: 519px !important;
+}
+.form-input select,
+.form-input textarea {
+margin-top: 8px;
+border: 1px solid #CCCCCC;
+}
+.submit-btn{
+    background-color: #00AB2F;
+    color: white;
+    text-align: center;
+    width: 270px;
+    height: 54px;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+.sub-btn{
+    margin-top: 56px;
+    border: none;
+}
+/* form input:focus:valid{
+    border-color: #00AB2F;
+    color: #00AB2F;
+}
+form input:focus:invalid{
+    border-color: red;
+    color: red;
+} */
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.side{
+    width: 424px;
+    height: 302px;
+    background-color: #00A9C7;
+    color: white;
+    margin-left: 40px;
+   
+}
+.side-head{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.validates{
+    color: red;
+}
+.phonenum{
+    display: flex;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?3d1gix');
+    src:  url('../fonts/icomoon.eot?3d1gix#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?3d1gix') format('truetype'),
+      url('../fonts/icomoon.woff?3d1gix') format('woff'),
+      url('../fonts/icomoon.svg?3d1gix#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  .side-call-logo::before{
+    content: "\e909";
+    font-family: 'icomoon';
+    color: #00A9C7;
+    background-color: white;
+    padding: 10px;
+  }
+  .side-email-logo::before{
+    content: "\e908";
+    font-family: 'icomoon';
+  color: #00A9C7;
+  background-color: white;
+  padding: 10px;
+  }
+.side-call,.side-email{
+    display: flex;
+    padding-top: 50px;
+    
+}
+.side-call-logo,.side-email-logo{
+    padding-left: 5px;
+    width: 80px;
+}
+@media only screen and (max-width: 767px) {
+   body{
+    margin: 0;
+    padding: 0;
+   }
+    .form{
+        margin: 0px;
+        padding:25px;
+    }
+    .cont-txt{
+        margin:0px;
+        padding: 25px;
+    }
+    .form-wrap a{
+        margin:0px;
+        padding: 25px;
+    }
+    .phone-btn select{
+        position: absolute;
+        top: 517px;
+        left: 28px;
+    }
+    .side{
+        margin-top: 20px;
+        margin-left: 4px;
+    }
+    .phone-btn select {
+        position: absolute;
+        top: 498px;
+        left: 28px;
+}
+.phone-input{
+    padding-left: 85px;
+}
+}
